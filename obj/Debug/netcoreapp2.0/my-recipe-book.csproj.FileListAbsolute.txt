@@ -1,0 +1,11 @@
+/Users/Thomas/Projects/my-recipe-book/bin/Debug/netcoreapp2.0/my-recipe-book.deps.json
+/Users/Thomas/Projects/my-recipe-book/bin/Debug/netcoreapp2.0/my-recipe-book.runtimeconfig.json
+/Users/Thomas/Projects/my-recipe-book/bin/Debug/netcoreapp2.0/my-recipe-book.runtimeconfig.dev.json
+/Users/Thomas/Projects/my-recipe-book/bin/Debug/netcoreapp2.0/my-recipe-book.dll
+/Users/Thomas/Projects/my-recipe-book/bin/Debug/netcoreapp2.0/my-recipe-book.pdb
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.csprojResolveAssemblyReference.cache
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.csproj.CoreCompileInputs.cache
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.AssemblyInfoInputs.cache
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.AssemblyInfo.cs
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.dll
+/Users/Thomas/Projects/my-recipe-book/obj/Debug/netcoreapp2.0/my-recipe-book.pdb
