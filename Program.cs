@@ -16,9 +16,8 @@ namespace my_recipe_book
         {
             BuildWebHost(args).Run();
         }
-
         public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+        WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
     }
