@@ -3,16 +3,22 @@ namespace myrecipebook
 {
     public class Recipe
     {
-        //id,user_id,name,ingredients,instructions
         private int _id;
-        private int _user_id;
         private string _name;
         private string _ingredients;
         private string _instructions;
 
-        public Recipe(int id, int user_id, string name, string ingredients, string instructions)
+        public Recipe()
         {
-            this._user_id = user_id;
+            _id = 0;
+            _name = "";
+            _ingredients = "";
+            _instructions = "";
+        }
+
+        public Recipe(int id, string name, string ingredients, string instructions)
+        {
+            this._id = id;
             this._name = name;
             this._ingredients = ingredients;
             this._instructions = instructions;
@@ -26,16 +32,6 @@ namespace myrecipebook
         public void SetID(int id)
         {
             this._id = id;
-        }
-
-        public int GetUserID()
-        {
-            return this._user_id;
-        }
-
-        public void SetUserID(int id)
-        {
-            this._user_id = id;
         }
 
         public string GetName()
@@ -66,6 +62,14 @@ namespace myrecipebook
         public void SetInstructions(string instructions)
         {
             this._instructions = instructions;
+        }
+
+        public void Print()
+        {
+            Console.WriteLine("ID: " + this._id + "\n");
+            Console.WriteLine("Name: " + this._name + "\n");
+            Console.WriteLine("Ingredients: " + this._ingredients + "\n");
+            Console.WriteLine("Instructions: " + this._instructions + "\n");
         }
 
     }

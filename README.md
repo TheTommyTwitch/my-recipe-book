@@ -1,2 +1,4 @@
 # my-recipe-book
-Web application to store your recipes
+
+
+Command line application to store you recipes.

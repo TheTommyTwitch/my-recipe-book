@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{073B422E-564B-4D97-BD53-E487494104D7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="User.cs">
-    <Files>
-      <File FileName="Program.cs" Line="4" Column="2" />
-      <File FileName="PostgresData.cs" Line="6" Column="42" />
-      <File FileName="IDatabase.cs" Line="1" Column="1" />
-      <File FileName="User.cs" Line="1" Column="14" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

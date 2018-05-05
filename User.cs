@@ -3,11 +3,11 @@ namespace myrecipebook
 {
     public class User
     {
-        private int _id;
-        private string _email;
-        private string _password;
-        private string _first_name;
-        private string _last_name;
+        protected int _id;
+        protected string _email;
+        protected string _password;
+        protected string _first_name;
+        protected string _last_name;
 
         public User(int id, string email, string password, string first_name, string last_name)
         {
@@ -18,52 +18,52 @@ namespace myrecipebook
             this._last_name = last_name;
         }
 
-        public int GetID()
+        public virtual int GetID()
         {
             return this._id;
         }
 
-        public void SetID(int id)
+        public virtual void SetID(int id)
         {
             this._id = id;
         }
 
-        public string GetEmail()
+        public virtual string GetEmail()
         {
             return this._email;
         }
 
-        public void SetEmail(string email)
+        public virtual void SetEmail(string email)
         {
             this._email = email;
         }
 
-        public string GetPassword()
+        public virtual string GetPassword()
         {
             return this._password;
         }
 
-        public void SetPassword(string password)
+        public virtual void SetPassword(string password)
         {
             this._password = password;
         }
 
-        public string GetFirstName()
+        public virtual string GetFirstName()
         {
             return this._first_name;
         }
 
-        public void SetFirstName(string name)
+        public virtual void SetFirstName(string name)
         {
             this._first_name = name;
         }
 
-        public string GetLastName()
+        public virtual string GetLastName()
         {
             return this._last_name;
         }
 
-        public void SetLastName(string name)
+        public virtual void SetLastName(string name)
         {
             this._last_name = name;
         }
